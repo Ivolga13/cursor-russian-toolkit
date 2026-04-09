@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Learning Journey</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #007acc;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #555;
+            margin-top: 30px;
+        }
+        
+        .highlight {
+            background-color: #e7f3ff;
+            padding: 15px;
+            border-left: 4px solid #007acc;
+            margin: 20px 0;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background-color: #4caf50;
+            width: 30%;
+            transition: width 0.3s ease;
+        }
+        
+        .skill-badge {
+            display: inline-block;
+            background-color: #007acc;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            margin: 5px;
+        }
+        
+        .note-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            background-color: #fafafa;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Cursor Learning Journey</h1>
+        
+        <div class="highlight">
+            <strong>Welcome to my learning dashboard!</strong> This page showcases what I've learned about Cursor's Skills and Rules through hands-on practice.
+        </div>
+        
+        <h2>Learning Progress</h2>
+        <p>Skills and Rules Mastery:</p>
+        <div class="progress-bar">
+            <div class="progress-fill"></div>
+        </div>
+        <p><em>30% Complete - Just getting started!</em></p>
+        
+        <h2>Skills I've Learned</h2>
+        <div>
+            <span class="skill-badge">Writing Assistant</span>
+            <span class="skill-badge">Content Organizer</span>
+            <span class="skill-badge">Markdown Formatting</span>
+            <span class="skill-badge">File Organization</span>
+        </div>
+        
+        <h2>Recent Learning Notes</h2>
+        
+        <div class="note-card">
+            <h3>Cursor Basics</h3>
+            <p><strong>What I learned:</strong> Skills and Rules work together to improve my workflow. Skills are on-demand helpers, while Rules provide automatic guidance.</p>
+            <p><strong>Key insight:</strong> I don't need programming knowledge to benefit from these AI features!</p>
+        </div>
+        
+        <div class="note-card">
+            <h3>Daily Progress</h3>
+            <p><strong>Today's focus:</strong> Understanding the difference between Skills and Rules through practical examples.</p>
+            <p><strong>Challenge overcome:</strong> Learning when to use each feature appropriately.</p>
+        </div>
+        
+        <h2>Questions I'm Exploring</h2>
+        <ul>
+            <li>How can I create custom Skills for my specific learning needs?</li>
+            <li>What are the best practices for organizing learning materials?</li>
+            <li>How do experienced users combine Skills and Rules effectively?</li>
+        </ul>
+        
+        <h2>Next Steps</h2>
+        <ol>
+            <li>Practice with more complex note-taking scenarios</li>
+            <li>Experiment with creating my first custom Skill</li>
+            <li>Build a comprehensive personal learning system</li>
+            <li>Share my experience with other beginners</li>
+        </ol>
+        
+        <div class="footer">
+            <p>This webpage was created as part of my Cursor learning project.<br>
+            Last updated: April 7, 2026</p>
+        </div>
+    </div>
+    
+    <script>
+        // Simple interactivity - click to update progress
+        document.querySelector('.progress-bar').addEventListener('click', function() {
+            const fill = document.querySelector('.progress-fill');
+            const currentWidth = parseInt(fill.style.width) || 30;
+            const newWidth = Math.min(currentWidth + 10, 100);
+            fill.style.width = newWidth + '%';
+            
+            if (newWidth === 100) {
+                alert('Congratulations! You\'ve mastered Cursor Skills and Rules! 🎉');
+            }
+        });
+        
+        // Add some dynamic content
+        document.addEventListener('DOMContentLoaded', function() {
+            const today = new Date().toLocaleDateString();
+            document.querySelector('.footer p').innerHTML = 
+                `This webpage was created as part of my Cursor learning project.<br>
+                Last updated: ${today}`;
+        });
+    </script>
+</body>
+</html>

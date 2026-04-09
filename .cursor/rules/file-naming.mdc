@@ -1,0 +1,66 @@
+---
+description: File naming conventions for organized, searchable files
+alwaysApply: true
+---
+
+# File Naming Standards
+
+Keep files organized and easy to find with consistent naming.
+
+## General Rules
+
+- Use lowercase letters only
+- Replace spaces with hyphens (-)
+- Use descriptive names that explain the content
+- Include dates when relevant
+
+## Examples
+
+```
+✅ GOOD
+cursor-basics.md
+daily-progress-2026-04-07.md
+useful-links.md
+learning-questions.md
+
+❌ AVOID
+Cursor Basics.md
+dailyprogress.md
+links.md
+Questions?.md
+```
+
+## Date Format
+
+When including dates, use YYYY-MM-DD format:
+
+```
+learning-notes-2026-04-07.md
+weekly-review-2026-04-14.md
+```
+
+## Folder Organization
+
+```
+learning-notes/
+  ├── cursor-basics.md
+  ├── daily-progress-2026-04-07.md
+  └── weekly-reviews/
+      ├── week-1-review.md
+      └── week-2-review.md
+
+resources/
+  ├── useful-links.md
+  ├── glossary.md
+  └── tutorials/
+      ├── markdown-guide.md
+      └── cursor-shortcuts.md
+```
+
+## File Types
+
+- `.md` for all documentation and notes
+- `.txt` for simple lists and quick notes
+- `.html` for web pages (when you're ready)
+
+This system makes it easy to find files, keeps everything organized, and works well with search tools.

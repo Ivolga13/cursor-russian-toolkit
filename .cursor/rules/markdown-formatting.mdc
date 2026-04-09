@@ -1,0 +1,73 @@
+---
+description: Markdown formatting standards for clear, consistent documentation
+globs: "**/*.md"
+alwaysApply: false
+---
+
+# Markdown Formatting Standards
+
+Keep your markdown files clean, consistent, and easy to read.
+
+## Headings
+
+Use proper heading hierarchy:
+
+```markdown
+# Main Title (only one per document)
+## Major Section
+### Subsection
+#### Details (rarely needed)
+```
+
+## Lists
+
+Use consistent bullet formatting:
+
+```markdown
+- Use hyphens for unordered lists
+- Keep items parallel in structure
+- Start each item with a capital letter
+
+1. Use numbers for ordered lists
+2. Keep numbering sequential
+3. End with periods, not parentheses
+```
+
+## Emphasis
+
+```markdown
+**Bold** for important terms and concepts
+*Italic* for emphasis or foreign words
+`Code` for technical terms, filenames, and commands
+```
+
+## Links and References
+
+```markdown
+[Clear link text](url) - describe what you're linking to
+[Internal links](./folder/file.md) - use relative paths
+```
+
+## Required Sections
+
+Every learning note should include:
+
+```markdown
+# Title
+
+## What I Learned
+Brief summary of key concepts
+
+## Questions
+Things I want to understand better
+
+## Next Steps
+What to explore or practice next
+```
+
+## Writing Style
+
+- Keep sentences under 25 words
+- Use active voice when possible
+- Write in a conversational tone
+- Avoid technical jargon unless necessary
