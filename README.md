@@ -2,8 +2,9 @@
 
 **Профессиональная система Skills и Rules для русскоязычных пользователей Cursor**
 
-[![Версия](https://img.shields.io/badge/версия-1.0-blue)](https://github.com/cursor-russian-toolkit)
-[![Лицензия](https://img.shields.io/badge/лицензия-MIT-green)](LICENSE)
+[![Версия](https://img.shields.io/badge/версия-1.0-blue)](https://github.com/Ivolga13/cursor-russian-toolkit)
+[![Лицензия](https://img.shields.io/badge/лицензия-MIT-green)](https://github.com/Ivolga13/cursor-russian-toolkit/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Ivolga13/cursor-russian-toolkit)](https://github.com/Ivolga13/cursor-russian-toolkit/stargazers)
 [![Русский](https://img.shields.io/badge/язык-русский-red)](README.md)
 
 ## 🎯 Что это такое?
@@ -21,7 +22,7 @@
 ### 1. Установка (2 минуты)
 ```bash
 # Скачайте репозиторий
-git clone https://github.com/your-username/cursor-russian-toolkit.git
+git clone https://github.com/Ivolga13/cursor-russian-toolkit.git
 
 # Скопируйте файлы в ваш проект
 cp -r cursor-russian-toolkit/.cursor/ your-project/
@@ -160,9 +161,9 @@ python это язык программирования для "машинног
 
 ## 📞 Контакты
 
-- **GitHub**: [cursor-russian-toolkit](https://github.com/your-username/cursor-russian-toolkit)
-- **Email**: [support@cursor-russian-toolkit.com](mailto:support@cursor-russian-toolkit.com)
-- **Telegram**: [@cursor_russian_toolkit](https://t.me/cursor_russian_toolkit)
+- **GitHub**: [cursor-russian-toolkit](https://github.com/Ivolga13/cursor-russian-toolkit)
+- **Issues**: [Сообщить о проблеме](https://github.com/Ivolga13/cursor-russian-toolkit/issues)
+- **Discussions**: [Обсуждения](https://github.com/Ivolga13/cursor-russian-toolkit/discussions)
 
 ---
 
